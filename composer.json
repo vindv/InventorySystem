@@ -1,0 +1,17 @@
+{
+  "name": "nzvin/inventory-system",
+  "description": "A PHP inventory and sales learning project",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "InventorySystem\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.1",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*",
+    "ext-mbstring": "*"
+  }
+}
